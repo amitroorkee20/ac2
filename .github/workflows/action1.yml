@@ -1,0 +1,11 @@
+name: acc2
+on: workflow_dispatch
+jobs: 
+  j1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: echo "g1"
+      - name: second 
+        run: echo "second greet"
+        
